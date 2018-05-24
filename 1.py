@@ -19,3 +19,8 @@ class MyClass(object):
 	@property
 	def property_func(self):
 	    print('property)
+		
+		
+		
+class TestClass(object):
+	pass
