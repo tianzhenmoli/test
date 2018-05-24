@@ -21,7 +21,7 @@ class MyClass(object):
 		
 	@property
 	def property_func(self):
-	    print('property)
+	    print('property')
 		
 		
 		
@@ -31,3 +31,11 @@ class TestClass(object):
 		
 	def func(self):
 		print(123)
+
+
+class HomeClass(object):
+    def __init__(self, name):
+        self.name = name
+
+    def func(self):
+        print(self.name)
