@@ -8,6 +8,9 @@ class MyClass(object):
 	def func(self):
 		print(self.name, self.age)
 		
+	def func2(self, args):
+		print(args)
+		
 	@classmethod
 	def class_func(cls):
 	    print('class_func')
